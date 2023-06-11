@@ -19,7 +19,7 @@ public class Four {
         if (input1.contains("?")) { // not .equals (равно), use contains() - (проверка наличия)
             for (int i = 1; i <= 9; i++) {
                 String input2 = input1.replace("?", String.valueOf(i));
-                System.out.println(input2);
+                // System.out.println(input2);
                 if (input2.equals("22 + 22 = 44")) System.out.println("Currect: 22 + 22 = 44");
             }
         }
